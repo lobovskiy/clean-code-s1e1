@@ -16,10 +16,10 @@ body {
 .aaa .more_inf {
   font-family: fantasy, cursive;
 }
-
 @media (max-width: 768px) {
-  .aaa { text-align: center;
-}
+  .aaa {
+    text-align: center;
+  }
 }
 .centered-main-page-element {
   display: block;
@@ -38,10 +38,11 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li {
   list-style: none;
 }
-input, button {
+input,
+button {
   outline: none;
 }
 button {
@@ -56,6 +57,7 @@ button {
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 h3,
 label[for="new-task"] {
@@ -97,7 +99,6 @@ li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -105,7 +106,6 @@ li {
 li > * {
   vertical-align: middle;
 }
-
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
@@ -137,12 +137,10 @@ li > input[type="text"] {
 ul li input[type="text"] {
   display: none;
 }
-
 ul .editMode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
-
 ul .editMode label {
   display: none;
 }
