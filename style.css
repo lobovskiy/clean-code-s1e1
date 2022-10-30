@@ -13,7 +13,7 @@ body {
 .diagram img {
   width: 100%;
 }
-.diagram .more-inf {
+.diagram .more-info {
   font-family: fantasy, cursive;
 }
 @media (max-width: 768px) {
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.new-task {
   display: flex;
 }
 ul {
