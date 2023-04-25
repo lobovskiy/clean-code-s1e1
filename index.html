@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Todo App</title>
   </head>
-  <body>
+  <body class="page">
     <aside class="diagram">
       <div class="diagram__image">
         <img src="./eisenhower-matrix.jpg"
@@ -24,14 +24,14 @@
     <article class="todo">
       <div class="container">
         <section class="todo__new-task new-task">
-          <label for="new-task" class="new-task__title h3-like">Add Item</label>
+          <label for="new-task" class="new-task__title primary-heading">Add Item</label>
           <div class="new-task__row">
             <input id="new-task" class="new-task__input" type="text">
             <button class="new-task__button button">Add</button>
           </div>
         </section>
         <section class="todo__incompleted-tasks incompleted-tasks">
-          <h3 class="incompleted-tasks__title">Todo</h3>
+          <h3 class="incompleted-tasks__title primary-heading">Todo</h3>
           <ul id="incompleted-tasks" class="incompleted-tasks__task-list task-list">
             <li class="task-list__item task">
               <input type="checkbox" class="task__checkbox">
@@ -54,7 +54,7 @@
           </ul>
         </section>
         <section class="todo__completed-tasks completed-tasks">
-          <h3 class="completed-tasks__title">Completed</h3>
+          <h3 class="completed-tasks__title primary-heading">Completed</h3>
           <ul id="completed-tasks" class="completed-tasks__task-list task-list">
             <li class="task-list__item task">
               <input type="checkbox" checked class="task__checkbox">
